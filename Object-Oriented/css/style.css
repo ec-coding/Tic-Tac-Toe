@@ -22,12 +22,19 @@
 /*******************************************/
 
 body {
-     margin: auto;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 150px;
      text-align: center;
+     background-image: url("https://i.imgur.com/d9hJ6kP.jpg");
+     background-size: cover;
+     color: white;
 }
 
 button {
      margin: auto;
+     color: black;
+     background-color: white;
 }
 
 
@@ -40,9 +47,10 @@ section {
 }
 
 div {
+     background-color: white;
      display: flex;
      width: 100%;
-     border: 2px solid black;
+     border: 3px solid rgb(255, 255, 255);
 }
 
 /******************************************
