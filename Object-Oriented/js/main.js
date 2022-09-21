@@ -26,49 +26,49 @@
 //     //Row 1
 //     if (grid[0][0] == turn && grid[0][1] == turn && grid[0][2] == turn) {
 //         document.querySelectorAll('button').forEach(button => button.disabled = true)
-//         gameOver("Game Over!",`Player ${turn} wins!`)
+//         gameOver("GAME OVER",`Player ${turn} wins!`)
 //         alert(`Player ${turn} wins!`)
 //         return
 //         //Row 2
 //     }else if (grid[1][0] == turn && grid[1][1] == turn && grid[1][2] == turn) {
 //         document.querySelectorAll('button').forEach(button => button.disabled = true)
-//         gameOver("Game Over!",`Player ${turn} wins!`)
+//         gameOver("GAME OVER",`Player ${turn} wins!`)
 //         alert(`Player ${turn} wins!`)
 //         return
 //         //Row 3
 //     }else if (grid[2][0] == turn && grid[2][1] == turn && grid[2][2] == turn) {
 //         document.querySelectorAll('button').forEach(button => button.disabled = true)
-//         gameOver("Game Over!",`Player ${turn} wins!`)
+//         gameOver("GAME OVER",`Player ${turn} wins!`)
 //         alert(`Player ${turn} wins!`)
 //         return
 //         //Column 1
 //     }else if (grid[0][0] == turn && grid[1][0] == turn && grid[2][0] == turn) {
 //         document.querySelectorAll('button').forEach(button => button.disabled = true)
-//         gameOver("Game Over!",`Player ${turn} wins!`)
+//         gameOver("GAME OVER",`Player ${turn} wins!`)
 //         alert(`Player ${turn} wins!`)
 //         return
 //         //Column 2
 //     }else if (grid[0][1] == turn && grid[1][1] == turn && grid[2][1] == turn) {
 //         document.querySelectorAll('button').forEach(button => button.disabled = true)
-//         gameOver("Game Over!",`Player ${turn} wins!`)
+//         gameOver("GAME OVER",`Player ${turn} wins!`)
 //         alert(`Player ${turn} wins!`)
 //         return
 //         //Column 3
 //     }else if (grid[0][2] == turn && grid[1][2] == turn && grid[2][2] == turn) {
 //         document.querySelectorAll('button').forEach(button => button.disabled = true)
-//         gameOver("Game Over!",`Player ${turn} wins!`)
+//         gameOver("GAME OVER",`Player ${turn} wins!`)
 //         alert(`Player ${turn} wins!`)
 //         return
 //         //Diagonal 1
 //     }else if (grid[0][0] == turn && grid[1][1] == turn && grid[2][2] == turn) {
 //         document.querySelectorAll('button').forEach(button => button.disabled = true)
-//         gameOver("Game Over!",`Player ${turn} wins!`)
+//         gameOver("GAME OVER",`Player ${turn} wins!`)
 //         alert(`Player ${turn} wins!`)
 //         return
 //         //Diagonal 2
 //     }else if (grid[2][0] == turn && grid[1][1] == turn && grid[0][2] == turn) {
 //         document.querySelectorAll('button').forEach(button => button.disabled = true)
-//         gameOver("Game Over!",`Player ${turn} wins!`)
+//         gameOver("GAME OVER",`Player ${turn} wins!`)
 //         alert(`Player ${turn} wins!`)
 //         return
 //     }
@@ -87,7 +87,7 @@
     
 //     //TIE CONDITIONS
 //     if (turnNumber == 9) {
-//         gameOver("Game Over!","Nobody Wins!")
+//         gameOver("GAME OVER","Nobody Wins!")
 //         alert("Game Over, Nobody Wins!");
 //     }
 // }
@@ -123,49 +123,49 @@ let ticTacToe = {  //ticTacToe does not have () after it, and instead has = , be
         //Row 1
         if (this.grid[0][0] == this.turn && this.grid[0][1] == this.turn && this.grid[0][2] == this.turn) {
             document.querySelectorAll('button').forEach(button => button.disabled = true)
-            this.gameOver("Game Over!",`Player ${this.turn} wins!`)
+            this.gameOver("GAME OVER",`Player ${this.turn} wins!`)
             alert(`Player ${this.turn} wins!`)
             return
             //Row 2
         }else if (this.grid[1][0] == this.turn && this.grid[1][1] == this.turn && this.grid[1][2] == this.turn) {
             document.querySelectorAll('button').forEach(button => button.disabled = true)
-            this.gameOver("Game Over!",`Player ${this.turn} wins!`)
+            this.gameOver("GAME OVER",`Player ${this.turn} wins!`)
             alert(`Player ${this.turn} wins!`)
             return
             //Row 3
         }else if (this.grid[2][0] == this.turn && this.grid[2][1] == this.turn && this.grid[2][2] == this.turn) {
             document.querySelectorAll('button').forEach(button => button.disabled = true)
-            this.gameOver("Game Over!",`Player ${this.turn} wins!`)
+            this.gameOver("GAME OVER",`Player ${this.turn} wins!`)
             alert(`Player ${this.turn} wins!`)
             return
             //Column 1
         }else if (this.grid[0][0] == this.turn && this.grid[1][0] == this.turn && this.grid[2][0] == this.turn) {
             document.querySelectorAll('button').forEach(button => button.disabled = true)
-            this.gameOver("Game Over!",`Player ${this.turn} wins!`)
+            this.gameOver("GAME OVER",`Player ${this.turn} wins!`)
             alert(`Player ${this.turn} wins!`)
             return
             //Column 2
         }else if (this.grid[0][1] == this.turn && this.grid[1][1] == this.turn && this.grid[2][1] == this.turn) {
             document.querySelectorAll('button').forEach(button => button.disabled = true)
-            this.gameOver("Game Over!",`Player ${this.turn} wins!`)
+            this.gameOver("GAME OVER",`Player ${this.turn} wins!`)
             alert(`Player ${this.turn} wins!`)
             return
             //Column 3
         }else if (this.grid[0][2] == this.turn && this.grid[1][2] == this.turn && this.grid[2][2] == this.turn) {
             document.querySelectorAll('button').forEach(button => button.disabled = true)
-            this.gameOver("Game Over!",`Player ${this.turn} wins!`)
+            this.gameOver("GAME OVER",`Player ${this.turn} wins!`)
             alert(`Player ${this.turn} wins!`)
             return
             //Diagonal 1
         }else if (this.grid[0][0] == this.turn && this.grid[1][1] == this.turn && this.grid[2][2] == this.turn) {
             document.querySelectorAll('button').forEach(button => button.disabled = true)
-            this.gameOver("Game Over!",`Player ${this.turn} wins!`)
+            this.gameOver("GAME OVER",`Player ${this.turn} wins!`)
             alert(`Player ${this.turn} wins!`)
             return
             //Diagonal 2
         }else if (this.grid[2][0] == this.turn && this.grid[1][1] == this.turn && this.grid[0][2] == this.turn) {
             document.querySelectorAll('button').forEach(button => button.disabled = true)
-            this.gameOver("Game Over!",`Player ${this.turn} wins!`)
+            this.gameOver("GAME OVER",`Player ${this.turn} wins!`)
             alert(`Player ${this.turn} wins!`)
             return
         }
@@ -184,7 +184,7 @@ let ticTacToe = {  //ticTacToe does not have () after it, and instead has = , be
     
         //TIE CONDITIONS
         if (this.turnNumber == 9) {
-            this.gameOver("Game Over!","Nobody Wins!")
+            this.gameOver("GAME OVER","Nobody Wins!")
             alert("Game Over, Nobody Wins!");
         }
     },
