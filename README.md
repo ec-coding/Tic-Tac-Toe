@@ -11,8 +11,10 @@
 <table bordercolor="#66b2b2">
 <tr>
 
-<p>This module is a back-end app meant to showcase the use of object-oriented programming (OOP) to create a fully interactive game module, complete with victory, loss, and tie conditions. Includes code for both procedural and OOP formats.</p><br>
+<p>This module is a server-side web app meant to showcase the use of object-oriented programming (OOP) to create a fully interactive game module, complete with victory, loss, and tie conditions.</p>
 
+<p>Now includes code for both procedural and OOP formats.</p>  
+  
 Technologies used:
 1. HTML5
 2. CSS
