@@ -1,4 +1,4 @@
-<h1 align="center">TIC TAC TOE</h1>
+<h1 align="center">TIC TAC TOE  </h1>
 
 <img src="https://github.com/ec-coding/Tic-Tac-Toe/blob/main/Tic-Tac-Toe%20Banner.png">
 
